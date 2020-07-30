@@ -15,6 +15,8 @@
 		2A02BAF124B9EB7000DA760D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A02BAEF24B9EB7000DA760D /* LaunchScreen.storyboard */; };
 		2A02BAFC24B9EB7000DA760D /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A02BAFB24B9EB7000DA760D /* RockPaperScissorsTests.swift */; };
 		2A02BB0724B9EB7000DA760D /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A02BB0624B9EB7000DA760D /* RockPaperScissorsUITests.swift */; };
+		2A02BB1524B9EBB600DA760D /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A02BB1424B9EBB600DA760D /* Sign.swift */; };
+		2A02BB1724B9EE2600DA760D /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A02BB1624B9EE2600DA760D /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2A02BB0224B9EB7000DA760D /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A02BB0624B9EB7000DA760D /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		2A02BB0824B9EB7000DA760D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A02BB1424B9EBB600DA760D /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		2A02BB1624B9EE2600DA760D /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				2A02BAE424B9EB6E00DA760D /* AppDelegate.swift */,
 				2A02BAE624B9EB6E00DA760D /* SceneDelegate.swift */,
 				2A02BAE824B9EB6E00DA760D /* ViewController.swift */,
+				2A02BB1424B9EBB600DA760D /* Sign.swift */,
+				2A02BB1624B9EE2600DA760D /* GameState.swift */,
 				2A02BAEA24B9EB6E00DA760D /* Main.storyboard */,
 				2A02BAED24B9EB7000DA760D /* Assets.xcassets */,
 				2A02BAEF24B9EB7000DA760D /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				2A02BAE924B9EB6E00DA760D /* ViewController.swift in Sources */,
 				2A02BAE524B9EB6E00DA760D /* AppDelegate.swift in Sources */,
+				2A02BB1724B9EE2600DA760D /* GameState.swift in Sources */,
+				2A02BB1524B9EBB600DA760D /* Sign.swift in Sources */,
 				2A02BAE724B9EB6E00DA760D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
